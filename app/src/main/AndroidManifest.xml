@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.todotask">
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.screens.AddTaskActivity"></activity>
+        <activity android:name=".ui.screens.SettingsActivity" />
+        <activity android:name=".ui.screens.HowToUseActivity" />
+        <activity android:name=".ui.screens.InstructionsActivity" />
+        <activity android:name=".ui.screens.InstructionActivity" />
+        <activity android:name=".ui.screens.AdvertisingActivity" />
+        <activity android:name=".ui.screens.HistoryActivity" />
+        <activity android:name=".ui.screens.AllTasksActivity" />
+        <activity android:name=".ui.screens.RecycleBinActivity" />
+        <activity
+            android:name=".ui.screens.SplashActivity"
+            android:theme="@style/SplashActivityStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.screens.MainActivity"
+            android:theme="@style/AppTheme" />
+
+        <receiver android:name=".model.ReminderBroadcast" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_path" />
+        </provider>
+    </application>
+
+</manifest>

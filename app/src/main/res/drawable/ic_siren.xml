@@ -1,0 +1,15 @@
+<vector android:height="24dp" android:viewportHeight="512"
+    android:viewportWidth="512" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#FEE572" android:pathData="M256,256m-256,0a256,256 0,1 1,512 0a256,256 0,1 1,-512 0"/>
+    <path android:fillColor="#FFCB26" android:pathData="M512,256c0,-6.771 -0.268,-13.479 -0.784,-20.117L385.814,110.481l-20.28,-15.651l-26.146,33.879l-70.58,-68.618h-25.617v70.45l23.02,23.722c-3.359,-0.344 -6.766,-0.523 -10.212,-0.523l0,0c-14.837,0 -28.952,3.246 -41.673,9.058l-67.86,-67.968l-20.28,15.651l43.042,55.773l16.283,16.342c-18.78,18.362 -30.482,43.938 -30.482,72.117v106.439h-30.151v58.524l88.827,88.827C227.466,510.79 241.591,512 256,512C397.385,512 512,397.385 512,256z"/>
+    <path android:fillColor="#FF4E1A" android:pathData="M356.971,363.88H155.029V254.712c0,-55.534 45.437,-100.971 100.971,-100.971l0,0c55.534,0 100.971,45.437 100.971,100.971V363.88z"/>
+    <path android:fillColor="#ED2602" android:pathData="M356.97,254.71v109.17H256V153.74c27.76,0 53.01,11.36 71.31,29.66S356.97,226.94 356.97,254.71z"/>
+    <path android:fillColor="#E6021F" android:pathData="M298.291,363.88h-84.582v-54.591c0,-23.26 19.031,-42.291 42.291,-42.291l0,0c23.26,0 42.291,19.031 42.291,42.291V363.88z"/>
+    <path android:fillColor="#C1021A" android:pathData="M298.29,309.29v54.59H256V267c11.63,0 22.2,4.76 29.87,12.42C293.53,287.09 298.29,297.66 298.29,309.29z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M124.88,361.15h262.24v58.52h-262.24z"/>
+    <path android:fillColor="#9BFCFF" android:pathData="M256,361.15h131.12v58.52h-131.12z"/>
+    <path android:fillColor="#FE990E" android:pathData="M243.19,60.09h25.617v70.45h-25.617z"/>
+    <path android:fillColor="#E57409" android:pathData="M256,60.09h12.81v70.45h-12.81z"/>
+    <path android:fillColor="#FE990E" android:pathData="M189.516,150.609l-20.282,15.653l-43.047,-55.778l20.282,-15.653z"/>
+    <path android:fillColor="#E57409" android:pathData="M365.54,94.819l20.282,15.653l-43.047,55.778l-20.282,-15.653z"/>
+</vector>

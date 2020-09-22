@@ -1,0 +1,12 @@
+<resources>
+    <style name="Button.Action">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
+    </style>
+
+    <style name="SplashActivityStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash_activity</item>
+        <item name="android:navigationBarColor">@color/mdtp_transparent_black</item>
+    </style>
+
+</resources>

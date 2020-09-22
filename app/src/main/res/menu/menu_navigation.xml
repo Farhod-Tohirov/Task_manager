@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/addTaskMenu"
+            android:icon="@drawable/ic_add_circle"
+            android:title="Add task" />
+
+        <item
+            android:id="@+id/basketButton"
+            android:icon="@drawable/ic_recycling_bin"
+            android:title="Recycle Bin" />
+
+        <item
+            android:id="@+id/allTasksButton"
+            android:icon="@drawable/ic_shopping_basket"
+            android:title="All tasks" />
+
+        <item
+            android:id="@+id/historyButton"
+            android:icon="@drawable/ic_history"
+            android:title="History" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/termsButton"
+            android:icon="@drawable/ic_term"
+            android:title="Advantages of Task manager" />
+
+        <item
+            android:id="@+id/instructionsButton"
+            android:icon="@drawable/ic_instructions"
+            android:title="Instructions for use" />
+
+        <item
+            android:id="@+id/settingsButton"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+
+        <item
+            android:id="@+id/shareItButton"
+            android:icon="@drawable/ic_collaboration"
+            android:title="Share me :)" />
+    </group>
+
+</menu>

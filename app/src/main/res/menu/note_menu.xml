@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/noteDelete"
+        android:title="@string/delete" />
+
+    <item
+        android:id="@+id/noteEdit"
+        android:title="@string/edit" />
+
+    <item
+        android:id="@+id/noteDone"
+        android:title="@string/done" />
+
+    <item
+        android:id="@+id/noteCancel"
+        android:title="@string/cancel" />
+
+</menu>

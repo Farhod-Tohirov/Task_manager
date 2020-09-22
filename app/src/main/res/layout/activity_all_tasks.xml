@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.screens.AllTasksActivity">
+
+    <View
+        android:id="@+id/actionBarAllTasks"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backButtonAllTasks"
+        style="@style/Button.Action"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="@string/back_button"
+        android:src="@drawable/ic_arrow_back"
+        app:layout_constraintBottom_toBottomOf="@id/actionBarAllTasks"
+        app:layout_constraintLeft_toLeftOf="@id/actionBarAllTasks"
+        app:layout_constraintTop_toTopOf="@id/actionBarAllTasks" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/all_tasks"
+        android:textColor="#000E5A"
+        android:textSize="24sp"
+        android:id="@+id/titleAllTasks"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/actionBarAllTasks"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/actionBarAllTasks" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPagerAllTasks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/tabLayoutAllTasks"
+        app:layout_constraintTop_toBottomOf="@id/actionBarAllTasks" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayoutAllTasks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:tabGravity="center"
+        app:tabMode="scrollable"
+        app:tabSelectedTextColor="#FF0000"
+        app:tabTextColor="#000000" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
